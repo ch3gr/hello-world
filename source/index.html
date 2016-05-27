@@ -10,6 +10,8 @@
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 </head>
 
+<p>This is a change</p>
+
 <body>
 
 <!-- demo content -->
@@ -18,9 +20,11 @@
 </div>
 
 
+
+
 <script>
 navigator.sayswho = (function(){
-    var ua= navigator.userAgent, tem, 
+    var ua= navigator.userAgent, tem,
     M= ua.match(/(opera|chrome|safari|firefox|msie|trident(?=\/))\/?\s*(\d+)/i) || [];
     if(/trident/i.test(M[1])){
         tem=  /\brv[ :]+(\d+)/g.exec(ua) || [];
